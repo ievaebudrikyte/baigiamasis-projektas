@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --header-font-family: "Roboto Mono", monospace;
+  --default-font-family: "Quattrocento", serif;
+  --main-bg-color: #b0bfff75;
+  --main-color-light: #dbe2ff52;
+  --table-font-color: #8a3853;
+  --form-font-color: #757575;
+  --mobile-table-border-color: #ccc;
+  --mobile-table-border-color-light: #eee;
+  font-weight: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+}
+
+input[type="date"] {
+  text-transform: uppercase;
+  width: 15rem;
+}
+::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* alert pop up styling */
+.react-confirm-alert-body {
+  background-color: var(--main-bg-color);
+  font-family: var(--default-font-family);
+}
+.react-confirm-alert-body h1 {
+  font-family: var(--header-font-family);
+  font-weight: 300;
+  padding-bottom: 1rem;
+  color: black;
+}
+.react-confirm-alert-blur {
+  filter: none;
+}
+.react-confirm-alert-overlay {
+  -webkit-animation: react-confirm-alert-fadeIn 0.1s forwards;
+  -moz-animation: react-confirm-alert-fadeIn 0.1s forwards;
+  -o-animation: react-confirm-alert-fadeIn 0.1s forwards;
+  animation: react-confirm-alert-fadeIn 0.1s forwards;
+}
+
+.react-confirm-alert-button-group > button {
+  background: transparent;
+  color: var(--form-font-color);
+  text-transform: uppercase;
+  padding: 0;
+  margin-right: 2rem;
+}
