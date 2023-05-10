@@ -1,4 +1,4 @@
-﻿# BaigiamasisProjektas
+﻿# Baigiamasis projektas
  
 1. To start the project start by cloning the repository
 Run in you terminal:
